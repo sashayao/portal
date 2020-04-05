@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GetStatus : MonoBehaviour
 {
-    public static GameObject status;
+    public GameObject status;
 
     public void RevealStatus(){
         status.SetActive(true);
